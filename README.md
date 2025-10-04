@@ -23,3 +23,27 @@ Clone the repository and install requirements:
 git clone https://github.com/<your-username>/ghpr-clustering.git
 cd ghpr-clustering
 pip install -r requirements.txt
+
+
+## Dataset
+
+This project uses the dataset from the paper:
+
+> Jiaxi Xu, Fei Wang, Jun Ai.  
+> *Defect Prediction With Semantics and Context Features of Codes Based on Graph Representation Learning*.  
+> IEEE Transactions on Reliability, 2021.  
+
+📖 If you use this dataset, please cite their paper:
+
+@ARTICLE{xu2021defect,
+author={Jiaxi Xu and Fei Wang and Jun Ai},
+journal={IEEE Transactions on Reliability},
+title={Defect Prediction With Semantics and Context Features of Codes Based on Graph Representation Learning},
+year={2021}
+}
+
+
+You can download the dataset directly from their repository:  
+[GHPR_dataset on GitHub](https://github.com/feiwww/GHPR_dataset)
+
+After downloading, place `ghprdata.csv` in the root of this project folder before running the notebook.
