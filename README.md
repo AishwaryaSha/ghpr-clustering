@@ -16,15 +16,6 @@ The approach uses **TF-IDF, UMAP, and KMeans clustering** on PR titles, commit m
 - `ghpr_clustering.ipynb` – Jupyter notebook with cleaned code and analysis
 - `requirements.txt` – Python dependencies
 
-## Installation
-Clone the repository and install requirements:
-
-```bash
-git clone https://github.com/<your-username>/ghpr-clustering.git
-cd ghpr-clustering
-pip install -r requirements.txt
-
-
 ## Dataset
 
 This project uses the dataset from the paper:
@@ -47,3 +38,12 @@ You can download the dataset directly from their repository:
 [GHPR_dataset on GitHub](https://github.com/feiwww/GHPR_dataset)
 
 After downloading, place `ghprdata.csv` in the root of this project folder before running the notebook.
+
+
+## Installation
+Clone the repository and install requirements:
+
+```bash
+git clone https://github.com/<your-username>/ghpr-clustering.git
+cd ghpr-clustering
+pip install -r requirements.txt
